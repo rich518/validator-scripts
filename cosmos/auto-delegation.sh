@@ -5,11 +5,11 @@
 ##############################################################################################################################################################
 
 KEY=""                                  # This is the key you wish to use for signing transactions, listed in first column of "${CLI_NAME} keys list".
-DENOM="ugraviton"                           
+DENOM=""                           
 MINIMUM_DELEGATION_AMOUNT="5000000"    
 RESERVATION_AMOUNT="1000000"        
 VALIDATOR=""  
-CLI_NAME='gravity'
+CLI_NAME=''
 ##############################################################################################################################################################
 
 
@@ -19,8 +19,8 @@ CLI_NAME='gravity'
 
 CHAIN_ID=""                                     # Current chain id. Empty means auto-detect.
 NODE="http://127.0.0.1:26657"  # Either run a local full node or choose one you trust.
-GAS_PRICES="0.025ugraviton"                         # Gas prices to pay for transaction.
-GAS_ADJUSTMENT="1.30"                           # Adjustment for estimated gas
+GAS_PRICES=""                         # Gas prices to pay for transaction.
+GAS_ADJUSTMENT=""                           # Adjustment for estimated gas
 GAS_FLAGS="--gas auto --gas-prices ${GAS_PRICES} --gas-adjustment ${GAS_ADJUSTMENT}"
 
 ##############################################################################################################################################################
